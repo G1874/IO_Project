@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 /env/
 dataset/
-=======
-/env/
->>>>>>> 21aa5b350de6a7e4de2c0c00b35c465d0fdf3b84
+.idea/
+datasets/
