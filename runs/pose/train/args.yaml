@@ -2,7 +2,7 @@ task: pose
 mode: train
 model: yolo11n-pose.pt
 data: hand-keypoints.yaml
-epochs: 5
+epochs: 20
 time: null
 patience: 100
 batch: 16
@@ -103,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: c:\Dev_TUF\Python\IO_Project\runs\pose\train
+save_dir: runs\pose\train
