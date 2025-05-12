@@ -12,7 +12,8 @@ if __name__ == "__main__":
             data="hand-keypoints.yaml",
             epochs=5,
             imgsz=640,
-            device='cuda'
+            device='cuda',
+            erasing=0.4
         )
 
     files = os.listdir("./Models")
