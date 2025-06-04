@@ -95,7 +95,7 @@ if __name__ == "__main__":
     parser.add_argument("-i", action="store_true")
     args = parser.parse_args()
 
-    model = YOLO("./Models/gesture_tracker_v1.pt")
+    model = YOLO("./Models/gesture_tracker_v2.pt")
 
     video_path = "./Video/istockphoto-1920129337-640_adpp_is.mp4"
     image_path = "./Img/istockphoto-878155798-612x612.jpg"

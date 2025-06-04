@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-trajectory = np.load("Trajectory/trajectory_2025-05-06_13-28-33.npy", allow_pickle=True)
+trajectory = np.load("Trajectory/trajectory_2025-05-13_14-14-43.npy", allow_pickle=True)
 t = trajectory[:,2]
 hand_1_traj = trajectory[:,0]
 hand_2_traj = trajectory[:,1]
