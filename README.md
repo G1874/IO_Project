@@ -35,6 +35,20 @@ python inference.py       #wideo z pliku
 python inference.py -r    #obraz z kamery
 ```
 
+Budowanie dockera:
+```bash
+docker build -t yolo-hand-train .
+```
+
+Uruchamianie dockera i treningu sieci:
+```bash
+docker run -it --rm \
+  -v $(pwd):/app \
+  -w /app \
+  yolo-hand-train \
+  python model_train.py
+```
+
 ### Resources:
 - [YOLO hand-keypoints dataset](https://docs.ultralytics.com/datasets/pose/hand-keypoints/)
 
