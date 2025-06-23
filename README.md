@@ -35,6 +35,12 @@ python inference.py       #wideo z pliku
 python inference.py -r    #obraz z kamery
 ```
 
+Wyświetlanie animacji trajektorii:
+```bash
+python trajectory_animation.py
+```
+
+### Docker
 Budowanie dockera:
 ```bash
 docker build -t yolo-hand-train .
